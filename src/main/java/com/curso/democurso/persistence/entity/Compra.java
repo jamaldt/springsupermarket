@@ -1,5 +1,6 @@
 package com.curso.democurso.persistence.entity;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -23,8 +24,8 @@ import java.util.List;
  */
 @Entity
 @Table(name = "compras")
-public class Compra
-{
+public class Compra {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_compra")
@@ -42,76 +43,73 @@ public class Compra
     private String estado;
 
     @ManyToOne
-    @JoinColumn(name = "id_cliente" ,insertable = false,updatable = false)
+    @JoinColumn(name = "id_cliente", insertable = false, updatable = false)
     private Cliente cliente;
 
-    @OneToMany(mappedBy = "producto")
+    @OneToMany(mappedBy = "compra", cascade = {CascadeType.ALL})
     private List<ComprasProducto> productos;
 
-    public Integer getIdCompra()
-    {
+    public Integer getIdCompra() {
         return idCompra;
     }
 
-    public Compra setIdCompra(Integer idCompra)
-    {
+    public void setIdCompra(Integer idCompra) {
         this.idCompra = idCompra;
-        return this;
     }
 
-    public String getIdCliente()
-    {
+    public String getIdCliente() {
         return idCliente;
     }
 
-    public Compra setIdCliente(String idCliente)
-    {
+    public void setIdCliente(String idCliente) {
         this.idCliente = idCliente;
-        return this;
     }
 
-    public LocalDateTime getFecha()
-    {
+    public LocalDateTime getFecha() {
         return fecha;
     }
 
-    public Compra setFecha(LocalDateTime fecha)
-    {
+    public void setFecha(LocalDateTime fecha) {
         this.fecha = fecha;
-        return this;
     }
 
-    public String getMedioPago()
-    {
+    public String getMedioPago() {
         return medioPago;
     }
 
-    public Compra setMedioPago(String medioPago)
-    {
+    public void setMedioPago(String medioPago) {
         this.medioPago = medioPago;
-        return this;
     }
 
-    public String getComentario()
-    {
+    public String getComentario() {
         return comentario;
     }
 
-    public Compra setComentario(String comentario)
-    {
+    public void setComentario(String comentario) {
         this.comentario = comentario;
-        return this;
     }
 
-    public String getEstado()
-    {
+    public String getEstado() {
         return estado;
     }
 
-    public Compra setEstado(String estado)
-    {
+    public void setEstado(String estado) {
         this.estado = estado;
-        return this;
     }
 
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    public List<ComprasProducto> getProductos() {
+        return productos;
+    }
+
+    public void setProductos(List<ComprasProducto> productos) {
+        this.productos = productos;
+    }
 }

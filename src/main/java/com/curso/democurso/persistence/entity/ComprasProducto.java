@@ -4,6 +4,7 @@ import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.MapsId;
 import javax.persistence.Table;
 
 /**
@@ -16,66 +17,69 @@ import javax.persistence.Table;
  * @since 11/25/21
  */
 @Entity
-@Table(name = " compras_productos")
-public class ComprasProducto
-{
+@Table(name = "compras_productos")
+public class ComprasProducto {
     @EmbeddedId
     private ComprasProductoPK id;
 
     private Integer cantidad;
-
     private Double total;
-
     private Boolean estado;
 
     @ManyToOne
-    @JoinColumn(name = "id_compra",insertable = false,updatable = false)
+    @MapsId("idCompra")
+    @JoinColumn(name = "id_compra", insertable = false, updatable = false)
     private Compra compra;
+
     @ManyToOne
-    @JoinColumn(name = "id_producto",insertable = false,updatable = false)
+    @JoinColumn(name = "id_producto", insertable = false, updatable = false)
     private Producto producto;
 
-    public ComprasProductoPK getId()
-    {
+    public ComprasProductoPK getId() {
         return id;
     }
 
-    public ComprasProducto setId(ComprasProductoPK id)
-    {
+    public void setId(ComprasProductoPK id) {
         this.id = id;
-        return this;
     }
 
-    public Integer getCantidad()
-    {
+    public Integer getCantidad() {
         return cantidad;
     }
 
-    public ComprasProducto setCantidad(Integer cantidad)
-    {
+    public void setCantidad(Integer cantidad) {
         this.cantidad = cantidad;
-        return this;
     }
 
-    public Double getTotal()
-    {
+    public Double getTotal() {
         return total;
     }
 
-    public ComprasProducto setTotal(Double total)
-    {
+    public void setTotal(Double total) {
         this.total = total;
-        return this;
     }
 
-    public Boolean getEstado()
-    {
+    public Boolean getEstado() {
         return estado;
     }
 
-    public ComprasProducto setEstado(Boolean estado)
-    {
+    public void setEstado(Boolean estado) {
         this.estado = estado;
-        return this;
+    }
+
+    public Compra getCompra() {
+        return compra;
+    }
+
+    public void setCompra(Compra compra) {
+        this.compra = compra;
+    }
+
+    public Producto getProducto() {
+        return producto;
+    }
+
+    public void setProducto(Producto producto) {
+        this.producto = producto;
     }
 }
