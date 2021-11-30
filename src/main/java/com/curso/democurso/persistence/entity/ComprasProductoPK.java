@@ -5,7 +5,7 @@ import javax.persistence.Embeddable;
 import java.io.Serializable;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   ComprasProductoPK
  * Description:            Class that represents a ComprasProductoPK's Entity in the application
  *

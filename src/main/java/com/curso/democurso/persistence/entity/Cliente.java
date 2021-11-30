@@ -11,7 +11,7 @@ import javax.persistence.Table;
 import java.util.List;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   Cliente
  * Description:            Class that represents a Cliente's Entity in the application
  *

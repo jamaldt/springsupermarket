@@ -8,7 +8,7 @@ import javax.persistence.MapsId;
 import javax.persistence.Table;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   ComprasProducto
  * Description:            Class that represents a ComprasProducto's Entity in the application
  *

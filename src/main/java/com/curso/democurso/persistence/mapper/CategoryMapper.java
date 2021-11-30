@@ -8,7 +8,7 @@ import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   CategoryMapper
  * Description:            Class that represents a CategoryMapper's Entity in the application
  *

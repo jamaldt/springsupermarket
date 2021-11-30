@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   JwtFilterRequest
  * Description:            Class that represents a JwtFilterRequest's Entity in the application
  *

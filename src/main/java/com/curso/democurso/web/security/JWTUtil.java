@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.Date;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   JWTUtil
  * Description:            Class that represents a JWTUtil's Entity in the application
  *

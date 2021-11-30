@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.List;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   Categoria
  * Description:            Class that represents a Categoria's Entity in the application
  *

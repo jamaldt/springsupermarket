@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   PurchaseController
  * Description:            Class that represents a PurchaseController's Entity in the application
  *

@@ -10,7 +10,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   Producto
  * Description:            Class that represents a Producto's Entity in the application
  *

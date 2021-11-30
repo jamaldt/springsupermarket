@@ -10,7 +10,7 @@ import org.mapstruct.Mappings;
 import java.util.List;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   PurchaseMapper
  * Description:            Class that represents a PurchaseMapper's Entity in the application
  *

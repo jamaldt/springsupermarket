@@ -13,7 +13,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   SecurityConfig
  * Description:            Class that represents a SecurityConfig's Entity in the application
  *

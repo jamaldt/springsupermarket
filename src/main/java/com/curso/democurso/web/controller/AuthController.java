@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   AuthController
  * Description:            Class that represents a AuthController's Entity in the application
  *
