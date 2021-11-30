@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   MarketUserDetailService
  * Description:            Class that represents a MarketUserDetailService's Entity in the application
  *

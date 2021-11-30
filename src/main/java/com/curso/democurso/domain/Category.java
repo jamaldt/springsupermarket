@@ -1,7 +1,7 @@
 package com.curso.democurso.domain;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   Category
  * Description:            Class that represents a Category's Entity in the application
  *

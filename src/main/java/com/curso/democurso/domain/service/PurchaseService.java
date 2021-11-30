@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   PurchaseService
  * Description:            Class that represents a PurchaseService's Entity in the application
  *

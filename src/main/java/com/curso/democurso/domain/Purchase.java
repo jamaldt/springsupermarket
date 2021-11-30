@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   Purchase
  * Description:            Class that represents a Purchase's Entity in the application
  *

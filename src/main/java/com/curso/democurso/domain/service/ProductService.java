@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   ProductService
  * Description:            Class that represents a ProductService's Entity in the application
  *

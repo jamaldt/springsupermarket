@@ -1,7 +1,7 @@
 package com.curso.democurso.domain.dto;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   AuthenticationRequest
  * Description:            Class that represents a AuthenticationRequest's Entity in the application
  *
