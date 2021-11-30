@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * System:                 CleanBnB
+ * System:                 MarketProject
  * Name:                   ProductRepository
  * Description:            Class that represents a ProductRepository's Entity in the application
  *
